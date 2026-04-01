@@ -73,8 +73,7 @@ namespace HW_01
 
         static void Task3()
         {
-            Console.Write("Enter 4 digits: ");
-            Console.WriteLine("~~~~~~~~~~~~");
+            Console.WriteLine("Enter 4 digits one by one: ");
 
             if (!int.TryParse(Console.ReadLine(), out int n1) ||
                 !int.TryParse(Console.ReadLine(), out int n2) ||
